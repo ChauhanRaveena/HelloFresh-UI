@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Web Test]" parallel="tests">
+  <test thread-count="3" name="Sign Up Firefox(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="common.UIAutomationTest.ExecutionClass">
+        <methods>
+          <include name="setUp"/>
+          <include name="close"/>
+          <include name="logInTest" invocation-numbers="0"/>
+          <include name="takeScreenShotOnFailure"/>
+        </methods>
+      </class> <!-- common.UIAutomationTest.ExecutionClass -->
+    </classes>
+  </test> <!-- Sign Up Firefox(failed) -->
+</suite> <!-- Failed suite [Web Test] -->

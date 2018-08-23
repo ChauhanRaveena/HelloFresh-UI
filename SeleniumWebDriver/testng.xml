@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name="Web Test" thread-count="3" parallel="tests" preserve-order="true"> 
+	
+	  <test name="Sign Up Firefox" preserve-order="true">
+	  <parameter name="browser"  value="firefox" /> 
+	    <classes>
+	      <class name="common.UIAutomationTest.ExecutionClass">
+	       <methods>
+	       		<include name="signUp"></include>
+	       		<include name="logInTest"></include>
+	       		<include name="checkoutTest"></include>
+	       </methods>
+	      </class>
+	    </classes>
+	   </test>
+	  
+	  <test name="Sign Up Chrome" preserve-order="true">
+	  <parameter name="browser"  value="chrome" /> 
+	    <classes>
+	      <class name="common.UIAutomationTest.ExecutionClass">
+	       <methods>
+	       		<include name="signUp"></include>
+	       		<include name="logInTest"></include>
+	       		<include name="checkoutTest"></include>
+	       </methods>
+	      </class>
+	    </classes>
+	  </test>
+ </suite>

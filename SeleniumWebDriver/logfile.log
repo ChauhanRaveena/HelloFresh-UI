@@ -1,0 +1,744 @@
+2018-08-22 14:08:56,467 INFO  [WebTest] Exception:java.io.FileNotFoundException: common\Resources\data.properties (The system cannot find the path specified)
+ 
+2018-08-22 14:08:56,470 INFO  [WebTest] Driver could not be initialized
+ 
+2018-08-22 14:15:34,035 INFO  [WebTest] Exception:java.io.FileNotFoundException: common\Resources\data.properties (The system cannot find the path specified)
+ 
+2018-08-22 14:15:34,038 INFO  [WebTest] Driver could not be initialized
+ 
+2018-08-22 14:15:34,776 INFO  [WebTest] Exception is::org.openqa.selenium.NoSuchElementException: Unable to locate element: Sign out
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'PC009808', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13012, moz:profile: C:\Users\xrach2907\AppData\..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 9dfbee17-4500-4808-8a16-9c88e883a694
+*** Element info: {Using=link text, value=Sign out} 
+2018-08-22 14:15:35,220 INFO  [WebTest] 2 
+2018-08-22 14:19:18,624 INFO  [WebTest] User Registered Successfully
+ 
+2018-08-22 14:19:20,869 INFO  [WebTest] User Logged Out Successfully
+ 
+2018-08-22 14:19:21,458 INFO  [WebTest] 2 
+2018-08-22 14:37:34,432 INFO  [WebTest] 2 
+2018-08-22 14:37:37,671 INFO  [WebTest] User Logged Out Successfully
+ 
+2018-08-22 14:38:49,898 INFO  [WebTest] 2 
+2018-08-22 14:38:53,964 INFO  [WebTest] User Logged Out Successfully
+ 
+2018-08-22 14:40:52,577 INFO  [WebTest] 2 
+2018-08-22 14:40:55,610 INFO  [WebTest] User Logged Out Successfully
+ 
+2018-08-22 14:43:28,616 INFO  [WebTest] User Registered Successfully
+ 
+2018-08-22 14:43:31,165 INFO  [WebTest] User Logged Out Successfully
+ 
+2018-08-22 15:01:11,854 INFO  [WebTest] Exception:java.io.FileNotFoundException: common\Resources\data.properties (The system cannot find the path specified)
+ 
+2018-08-22 15:01:11,856 INFO  [WebTest] Driver could not be initialized
+ 
+2018-08-22 15:01:12,385 INFO  [WebTest] Exception is::org.openqa.selenium.NoSuchElementException: Unable to locate element: Sign out
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'PC009808', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2832, moz:profile: C:\Users\xrach2907\AppData\..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 56ec1d1f-6c29-4352-bcec-468f2eb4a50d
+*** Element info: {Using=link text, value=Sign out} 
+2018-08-22 15:11:15,881 INFO  [WebTest] Exception:java.io.FileNotFoundException: common\Resources\data.properties (The system cannot find the path specified)
+ 
+2018-08-22 15:11:15,884 INFO  [WebTest] Driver could not be initialized
+ 
+2018-08-22 15:11:16,475 INFO  [WebTest] Exception is::org.openqa.selenium.NoSuchElementException: Unable to locate element: Sign out
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'PC009808', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 9584, moz:profile: C:\Users\xrach2907\AppData\..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 034c445b-e698-4d6e-bf52-4fccab809a46
+*** Element info: {Using=link text, value=Sign out} 
+2018-08-22 15:18:19,108 INFO  [WebTest] Exception:java.lang.NullPointerException
+ 
+2018-08-22 15:18:19,111 INFO  [WebTest] Driver could not be initialized
+ 
+2018-08-22 15:18:19,662 INFO  [WebTest] Exception is::org.openqa.selenium.NoSuchElementException: Unable to locate element: Sign out
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'PC009808', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 4052, moz:profile: C:\Users\xrach2907\AppData\..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b8342371-33f3-4d5e-8039-8b3b8e10b3be
+*** Element info: {Using=link text, value=Sign out} 
+2018-08-22 15:21:24,995 INFO  [WebTest] User Registered Successfully
+ 
+2018-08-22 15:21:28,278 INFO  [WebTest] User Logged Out Successfully
+ 
+2018-08-22 15:25:45,694 INFO  [WebTest] User Registered Successfully
+ 
+2018-08-22 15:25:48,491 INFO  [WebTest] User Logged Out Successfully
+ 
+2018-08-22 16:12:10,130 INFO  [WebTest] 2 
+2018-08-22 16:12:27,746 INFO  [WebTest] 2 
+2018-08-22 16:12:53,383 INFO  [WebTest] User Registered Successfully
+ 
+2018-08-22 16:40:31,361 INFO  [WebTest] User Registered Successfully
+ 
+2018-08-22 16:40:40,757 INFO  [WebTest] 2 
+2018-08-22 16:56:34,526 INFO  [WebTest] User Registered Successfully
+ 
+2018-08-22 16:57:46,464 INFO  [WebTest] 2 
+2018-08-22 16:58:45,413 INFO  [WebTest] 2 
+2018-08-22 17:07:54,990 INFO  [WebTest] User Registered Successfully
+ 
+2018-08-22 17:09:05,715 INFO  [WebTest] 2 
+2018-08-22 17:09:42,063 INFO  [WebTest] 2 
+2018-08-22 17:12:08,126 INFO  [WebTest] User Registered Successfully
+ 
+2018-08-22 17:21:25,267 INFO  [WebTest] User Registered Successfully
+ 
+2018-08-22 17:21:43,801 INFO  [WebTest] Existing User logged in Successfully
+ 
+2018-08-22 17:22:54,715 INFO  [WebTest] User Registered Successfully
+ 
+2018-08-22 17:23:12,829 INFO  [WebTest] Existing User logged in Successfully
+ 
+2018-08-22 17:29:23,965 INFO  [WebTest] Exception:org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: id_gender2 (tried for 100 second(s) with 500 milliseconds interval)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'PC009808', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 16848, moz:profile: C:\Users\xrach2907\AppData\..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 59845acf-8d67-4884-ba17-edae911cb195
+ 
+2018-08-22 17:29:23,967 INFO  [WebTest] Driver could not be initialized
+ 
+2018-08-22 17:31:27,294 INFO  [WebTest] 2 
+2018-08-22 17:33:38,616 INFO  [WebTest] User Registered Successfully
+ 
+2018-08-22 17:34:01,146 INFO  [WebTest] Existing User logged in Successfully
+ 
+2018-08-22 17:34:08,061 INFO  [WebTest] Exception:org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'PC009808', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 6416, moz:profile: C:\Users\xrach2907\AppData\..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 03f2f9c9-4262-459e-8c51-1923a7106781
+*** Element info: {Using=id, value=id_gender2}
+ 
+2018-08-22 17:34:08,062 INFO  [WebTest] Driver could not be initialized
+ 
+2018-08-22 17:34:33,628 INFO  [WebTest] User Registered Successfully
+ 
+2018-08-22 17:34:55,178 INFO  [WebTest] Existing User logged in Successfully
+ 
+2018-08-22 17:46:42,551 INFO  [WebTest] 2 
+2018-08-22 17:47:34,355 INFO  [WebTest] Exception:org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: id_gender2 (tried for 100 second(s) with 500 milliseconds interval)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'PC009808', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 9872, moz:profile: C:\Users\xrach2907\AppData\..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 2372f068-a123-4b3d-bec3-7085d338d8e5
+ 
+2018-08-22 17:47:34,365 INFO  [WebTest] Driver could not be initialized
+ 
+2018-08-22 17:47:49,206 INFO  [WebTest] 2 
+2018-08-22 17:50:36,757 INFO  [WebTest] 2 
+2018-08-22 17:52:51,286 INFO  [WebTest] 2 
+2018-08-22 17:53:09,543 INFO  [WebTest] 2 
+2018-08-22 17:55:02,454 INFO  [WebTest] Exception:org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: id_gender2 (tried for 100 second(s) with 500 milliseconds interval)
+ 
+2018-08-22 17:55:02,454 INFO  [WebTest] Driver could not be initialized
+ 
+2018-08-22 18:11:13,716 INFO  [WebTest] 2 
+2018-08-22 18:11:34,123 INFO  [WebTest] 2 
+2018-08-22 18:11:59,825 INFO  [WebTest] User Registered Successfully
+ 
+2018-08-22 18:13:39,017 INFO  [WebTest] 2 
+2018-08-22 18:14:07,959 INFO  [WebTest] User Registered Successfully
+ 
+2018-08-22 18:43:49,686 INFO  [WebTest] 2 
+2018-08-22 18:46:21,418 INFO  [WebTest] 2 
+2018-08-22 18:50:23,182 INFO  [WebTest] 2 
+2018-08-22 18:52:58,543 INFO  [WebTest] 2 
+2018-08-22 18:53:23,039 INFO  [WebTest] User Registered Successfully
+ 
+2018-08-22 18:58:52,368 INFO  [WebTest] User Registered Successfully
+ 
+2018-08-22 18:59:09,557 INFO  [WebTest] Existing User logged in Successfully
+ 
+2018-08-22 19:00:56,775 INFO  [WebTest] User Registered Successfully
+ 
+2018-08-22 19:01:17,484 INFO  [WebTest] Existing User logged in Successfully
+ 
+2018-08-22 19:05:06,579 INFO  [WebTest] 2 
+2018-08-22 19:06:36,615 INFO  [WebTest] User Registered Successfully
+ 
+2018-08-22 19:06:58,166 INFO  [WebTest] Existing User logged in Successfully
+ 
+2018-08-22 19:08:37,055 INFO  [WebTest] User Registered Successfully
+ 
+2018-08-22 19:08:56,862 INFO  [WebTest] Existing User logged in Successfully
+ 
+2018-08-22 19:15:17,029 INFO  [WebTest] 2 
+2018-08-22 19:19:31,090 INFO  [WebTest] 2 
+2018-08-22 19:22:59,806 INFO  [WebTest] 2 
+2018-08-22 19:27:17,648 INFO  [WebTest] 2 
+2018-08-22 19:34:41,527 INFO  [WebTest] 2 
+2018-08-22 19:36:39,636 INFO  [WebTest] 2 
+2018-08-22 19:41:47,895 INFO  [WebTest] 2 
+2018-08-22 19:43:25,387 INFO  [WebTest] 2 
+2018-08-22 19:45:43,858 INFO  [WebTest] Existing User logged in Successfully
+ 
+2018-08-22 19:46:29,320 INFO  [WebTest] 2 
+2018-08-22 19:47:54,694 INFO  [WebTest] 2 
+2018-08-22 19:47:55,205 INFO  [WebTest] Screenshot taken since failure occured
+ 
+2018-08-22 19:49:52,264 INFO  [WebTest] Existing User logged in Successfully
+ 
+2018-08-22 19:50:08,273 INFO  [WebTest] Existing User logged in Successfully
+ 
+2018-08-22 20:07:03,441 INFO  [WebTest] Exception:java.lang.NullPointerException
+ 
+2018-08-22 20:07:03,443 INFO  [WebTest] Driver could not be initialized
+ 
+2018-08-22 20:07:03,443 INFO  [WebTest] User Registered Successfully 
+2018-08-22 20:08:45,391 INFO  [WebTest] Exception:java.lang.NullPointerException
+ 
+2018-08-22 20:08:45,392 INFO  [WebTest] Driver could not be initialized
+ 
+2018-08-22 20:08:45,392 INFO  [WebTest] User Registered Successfully 
+2018-08-22 20:10:52,843 INFO  [WebTest] Exception:java.lang.NullPointerException
+ 
+2018-08-22 20:10:52,845 INFO  [WebTest] Driver could not be initialized
+ 
+2018-08-22 20:10:52,846 INFO  [WebTest] User Registered Successfully 
+2018-08-22 20:13:39,964 INFO  [WebTest] Exception:java.lang.NullPointerException
+ 
+2018-08-22 20:13:39,966 INFO  [WebTest] Driver could not be initialized
+ 
+2018-08-22 20:20:11,556 INFO  [WebTest] Exception:java.lang.NullPointerException
+ 
+2018-08-22 20:20:11,557 INFO  [WebTest] Driver could not be initialized
+ 
+2018-08-22 20:22:43,650 INFO  [WebTest] Exception:java.lang.NullPointerException
+ 
+2018-08-22 20:22:43,651 INFO  [WebTest] Driver could not be initialized
+ 
+2018-08-22 20:23:18,774 INFO  [WebTest] Exception:java.lang.NullPointerException
+ 
+2018-08-22 20:23:18,776 INFO  [WebTest] Driver could not be initialized
+ 
+2018-08-22 20:25:09,524 INFO  [WebTest] Exception:java.lang.NullPointerException
+ 
+2018-08-22 20:25:09,526 INFO  [WebTest] Driver could not be initialized
+ 
+2018-08-22 20:27:51,098 INFO  [WebTest] Exception:java.lang.NullPointerException
+ 
+2018-08-22 20:27:51,099 INFO  [WebTest] Driver could not be initialized
+ 
+2018-08-22 20:28:19,133 INFO  [WebTest] Exception:java.lang.NullPointerException
+ 
+2018-08-22 20:28:19,134 INFO  [WebTest] Driver could not be initialized
+ 
+2018-08-22 20:30:44,623 INFO  [WebTest] Exception:java.lang.NullPointerException
+ 
+2018-08-22 20:30:44,630 INFO  [WebTest] Driver could not be initialized
+ 
+2018-08-22 20:37:18,408 INFO  [WebTest] Exception:java.lang.NullPointerException
+ 
+2018-08-22 20:37:18,409 INFO  [WebTest] Driver could not be initialized
+ 
+2018-08-22 20:38:13,627 INFO  [WebTest] Exception:java.lang.NullPointerException
+ 
+2018-08-22 20:38:13,628 INFO  [WebTest] Driver could not be initialized
+ 
+2018-08-22 20:42:45,036 INFO  [WebTest] Exception:java.lang.NullPointerException
+ 
+2018-08-22 20:42:45,038 INFO  [WebTest] Driver could not be initialized
+ 
+2018-08-22 20:48:40,590 INFO  [WebTest] signUp Stack Trace: 
+java.lang.NullPointerException
+	at common.UIAutomationTest.ExecutionClass.signUp(ExecutionClass.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2018-08-22 21:01:18,722 INFO  [WebTest] Existing User logged in Successfully
+ 
+2018-08-22 21:02:01,455 INFO  [WebTest] Existing User logged in Successfully
+ 
+2018-08-22 21:02:23,950 INFO  [WebTest] User Registered Successfully
+ 
+2018-08-22 21:04:00,313 INFO  [WebTest] Existing User logged in Successfully
+ 
+2018-08-22 21:04:45,783 INFO  [WebTest] Existing User logged in Successfully
+ 
+2018-08-22 21:05:12,333 INFO  [WebTest] User Registered Successfully
+ 
+2018-08-22 21:05:57,040 INFO  [WebTest] Existing User logged in Successfully
+ 
+2018-08-22 21:06:42,341 INFO  [WebTest] Existing User logged in Successfully
+ 
+2018-08-22 21:07:04,593 INFO  [WebTest] User Registered Successfully
+ 
+2018-08-22 21:10:55,946 INFO  [WebTest] Existing User logged in Successfully
+ 
+2018-08-22 21:11:08,124 INFO  [WebTest] Existing User logged in Successfully
+ 
+2018-08-22 21:11:52,197 INFO  [WebTest] Existing User logged in Successfully
+ 
+2018-08-22 21:12:18,895 INFO  [WebTest] User Registered Successfully
+ 
+2018-08-22 21:13:26,102 INFO  [WebTest] 2 
+2018-08-22 21:13:26,534 INFO  [WebTest] Screenshot taken since failure occured
+ 
+2018-08-22 21:13:46,296 INFO  [WebTest] 2 
+2018-08-22 21:13:46,712 INFO  [WebTest] Screenshot taken since failure occured
+ 
+2018-08-22 21:14:17,254 INFO  [WebTest] 2 
+2018-08-22 21:14:17,664 INFO  [WebTest] Screenshot taken since failure occured
+ 
+2018-08-22 23:00:24,408 INFO  [WebTest] 2 
+2018-08-22 23:00:24,764 INFO  [WebTest] Screenshot taken since failure occured
+ 
+2018-08-22 23:00:45,525 INFO  [WebTest] 2 
+2018-08-22 23:00:45,714 INFO  [WebTest] Screenshot taken since failure occured
+ 
+2018-08-22 23:01:10,416 INFO  [WebTest] 2 
+2018-08-22 23:01:10,722 INFO  [WebTest] Screenshot taken since failure occured
+ 
+2018-08-22 23:03:06,100 INFO  [WebTest] 2 
+2018-08-22 23:03:06,635 INFO  [WebTest] Screenshot taken since failure occured
+ 
+2018-08-22 23:03:28,178 INFO  [WebTest] 2 
+2018-08-22 23:03:28,354 INFO  [WebTest] Screenshot taken since failure occured
+ 
+2018-08-22 23:03:52,681 INFO  [WebTest] 2 
+2018-08-22 23:03:52,997 INFO  [WebTest] Screenshot taken since failure occured
+ 
+2018-08-22 23:10:52,049 INFO  [WebTest2] User Registered Successfully
+ 
+2018-08-22 23:12:13,243 INFO  [WebTest2] User Registered Successfully
+ 
+2018-08-22 23:19:43,682 INFO  [WebTest2] Existing User logged in Successfully
+ 
+2018-08-22 23:20:36,467 INFO  [WebTest2] Existing User logged in Successfully
+ 
+2018-08-22 23:21:08,479 INFO  [WebTest2] User Registered Successfully
+ 
+2018-08-22 23:23:35,776 INFO  [WebTest2] Existing User logged in Successfully
+ 
+2018-08-22 23:24:26,602 INFO  [WebTest2] Existing User logged in Successfully
+ 
+2018-08-22 23:24:56,875 INFO  [WebTest2] User Registered Successfully
+ 
+2018-08-22 23:32:54,092 INFO  [WebTestLogic] Existing User logged in Successfully
+ 
+2018-08-22 23:33:44,506 INFO  [WebTestLogic] Existing User logged in Successfully
+ 
+2018-08-22 23:34:15,867 INFO  [WebTestLogic] User Registered Successfully
+ 
+2018-08-22 23:37:01,988 INFO  [WebTestLogic] 2 
+2018-08-22 23:37:03,056 INFO  [WebTestLogic] Screenshot taken since failure occured
+ 
+2018-08-22 23:40:06,872 INFO  [WebTestLogic] 2 
+2018-08-22 23:40:07,998 INFO  [WebTestLogic] Screenshot taken since failure occured
+ 
+2018-08-22 23:42:35,338 INFO  [WebTestLogic] User Registered Successfully
+ 
+2018-08-22 23:42:51,158 INFO  [WebTestLogic] Existing User logged in Successfully
+ 
+2018-08-22 23:43:04,003 INFO  [WebTestLogic] Existing User logged in Successfully
+ 
+2018-08-22 23:44:48,420 INFO  [WebTestLogic] 2 
+2018-08-22 23:44:49,183 INFO  [WebTestLogic] Failure occured.Refer screenshot(s) for more details
+ 
+2018-08-22 23:45:31,053 INFO  [WebTestLogic] User Registered Successfully
+ 
+2018-08-22 23:45:47,012 INFO  [WebTestLogic] Existing User logged in Successfully
+ 
+2018-08-22 23:46:00,223 INFO  [WebTestLogic] Existing User logged in Successfully
+ 
+2018-08-22 23:47:43,883 INFO  [WebTestLogic] 2 
+2018-08-22 23:47:44,918 INFO  [WebTestLogic] Failure occured.Refer screenshot(s) for more details
+ 
+2018-08-22 23:49:56,957 INFO  [WebTestLogic] User Registered Successfully
+ 
+2018-08-22 23:50:08,696 INFO  [WebTestLogic] Existing User logged in Successfully
+ 
+2018-08-22 23:50:23,875 INFO  [WebTestLogic] Existing User logged in Successfully
+ 
+2018-08-22 23:52:08,239 INFO  [WebTestLogic] 2 
+2018-08-22 23:52:08,935 INFO  [WebTestLogic] Failure occured.Refer screenshot(s) for more details
+ 
+2018-08-22 23:57:09,304 INFO  [WebTestLogic] Existing User logged in Successfully
+ 
+2018-08-22 23:58:02,684 INFO  [WebTestLogic] Existing User logged in Successfully
+ 
+2018-08-22 23:59:46,117 INFO  [WebTestLogic] 2 
+2018-08-22 23:59:46,885 INFO  [WebTestLogic] Failure occured.Refer screenshot(s) for more details
+ 
+2018-08-23 00:01:47,523 INFO  [WebTestLogic] Existing User logged in Successfully
+ 
+2018-08-23 00:08:32,200 INFO  [WebTestLogic] Existing User logged in Successfully
+ 
+2018-08-23 00:09:35,694 INFO  [WebTestLogic] Existing User logged in Successfully
+ 
+2018-08-23 00:10:41,628 INFO  [WebTestLogic] 2 
+2018-08-23 00:10:55,671 INFO  [WebTestLogic] Existing User logged in Successfully
+ 
+2018-08-23 00:12:19,274 INFO  [WebTestLogic] Existing User logged in Successfully
+ 
+2018-08-23 00:12:38,653 INFO  [WebTestLogic] 2 
+2018-08-23 00:12:39,671 INFO  [WebTestLogic] Failure occured.Refer screenshot(s) for more details
+ 
+2018-08-23 00:13:47,913 INFO  [WebTestLogic] Existing User logged in Successfully
+ 
+2018-08-23 00:14:02,498 INFO  [WebTestLogic] 2 
+2018-08-23 00:14:03,511 INFO  [WebTestLogic] Failure occured.Refer screenshot(s) for more details
+ 
+2018-08-23 12:22:14,944 INFO  [WebTestLogic] 2 
+2018-08-23 12:22:16,163 INFO  [WebTestLogic] Failure occured.Refer screenshot(s) for more details
+ 
+2018-08-23 12:22:52,475 INFO  [WebTestLogic] 2 
+2018-08-23 12:22:53,909 INFO  [WebTestLogic] Failure occured.Refer screenshot(s) for more details
+ 
+2018-08-23 12:23:41,843 INFO  [WebTestLogic] Existing User logged in Successfully
+ 
+2018-08-23 12:25:26,008 INFO  [WebTestLogic] 2 
+2018-08-23 12:25:28,056 INFO  [WebTestLogic] Failure occured.Refer screenshot(s) for more details
+ 
+2018-08-23 12:26:30,012 INFO  [WebTestLogic] Existing User logged in Successfully
+ 
+2018-08-23 12:28:07,164 INFO  [WebTestLogic] Existing User logged in Successfully
+ 
+2018-08-23 12:28:13,546 INFO  [WebTestLogic] 2 
+2018-08-23 12:28:14,889 INFO  [WebTestLogic] Failure occured.Refer screenshot(s) for more details
+ 
+2018-08-23 12:29:49,495 INFO  [WebTestLogic] 2 
+2018-08-23 12:29:50,336 INFO  [WebTestLogic] Failure occured.Refer screenshot(s) for more details
+ 
+2018-08-23 12:30:45,684 INFO  [WebTestLogic] Existing User logged in Successfully
+ 
+2018-08-23 12:32:29,601 INFO  [WebTestLogic] 2 
+2018-08-23 12:32:30,332 INFO  [WebTestLogic] Failure occured.Refer screenshot(s) for more details
+ 
+2018-08-23 12:35:02,390 INFO  [WebTestLogic] Existing User logged in Successfully
+ 
+2018-08-23 12:36:10,588 INFO  [WebTestLogic] Existing User logged in Successfully
+ 
+2018-08-23 12:37:55,064 INFO  [WebTestLogic] 2 
+2018-08-23 12:37:56,994 INFO  [WebTestLogic] Failure occured.Refer screenshot(s) for more details
+ 
+2018-08-23 12:39:05,772 INFO  [WebTestLogic] Existing User logged in Successfully
+ 
+2018-08-23 12:40:49,877 INFO  [WebTestLogic] 2 
+2018-08-23 12:40:51,146 INFO  [WebTestLogic] Failure occured.Refer screenshot(s) for more details
+ 
+2018-08-23 13:37:37,457 INFO  [WebTestLogic] Existing User logged in Successfully
+ 
+2018-08-23 13:40:06,625 INFO  [WebTestLogic] Existing User logged in Successfully
+ 
+2018-08-23 13:41:50,551 INFO  [WebTestLogic] 2 
+2018-08-23 13:41:51,385 INFO  [WebTestLogic] Failure occured.Refer screenshot(s) for more details
+ 
+2018-08-23 13:42:26,034 INFO  [WebTestLogic] Existing User logged in Successfully
+ 
+2018-08-23 13:43:56,056 INFO  [WebTestLogic] Existing User logged in Successfully
+ 
+2018-08-23 13:46:32,949 INFO  [WebTestLogic] Existing User logged in Successfully
+ 
+2018-08-23 13:52:21,255 INFO  [WebTestLogic] Existing User logged in Successfully
+ 
+2018-08-23 13:55:20,039 INFO  [WebTestLogic] Existing User logged in Successfully
+ 
+2018-08-23 13:56:18,108 INFO  [WebTestLogic] Existing User logged in Successfully
+ 
+2018-08-23 14:00:20,757 INFO  [WebTestLogic] 2 
+2018-08-23 14:00:21,683 INFO  [WebTestLogic] Failure occured.Refer screenshot(s) for more details
+ 
+2018-08-23 14:00:24,734 INFO  [WebTestLogic] Exception:org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'PC009808', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 12700, moz:profile: C:\Users\xrach2907\AppData\..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 7d540909-d459-4c5d-b5f5-8bddff32e409
+*** Element info: {Using=id, value=id_gender2}
+ 
+2018-08-23 14:00:24,734 INFO  [WebTestLogic] Driver could not be initialized
+ 
+2018-08-23 14:00:24,734 INFO  [WebTestLogic] 2 
+2018-08-23 14:01:06,812 INFO  [WebTestLogic] 2 
+2018-08-23 14:01:08,233 INFO  [WebTestLogic] Failure occured.Refer screenshot(s) for more details
+ 
+2018-08-23 14:01:12,465 INFO  [WebTestLogic] Exception:org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'PC009808', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 18080, moz:profile: C:\Users\xrach2907\AppData\..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 7365befe-05fc-4d89-8ce4-fe3ce21edf62
+*** Element info: {Using=id, value=id_gender2}
+ 
+2018-08-23 14:01:12,466 INFO  [WebTestLogic] Driver could not be initialized
+ 
+2018-08-23 14:03:31,659 INFO  [WebTestLogic] Exception:java.lang.NullPointerException
+ 
+2018-08-23 14:03:31,662 INFO  [WebTestLogic] Driver could not be initialized
+ 
+2018-08-23 14:03:31,740 INFO  [WebTestLogic] 2 
+2018-08-23 14:05:41,574 INFO  [WebTestLogic] 2 
+2018-08-23 14:05:49,687 INFO  [WebTestLogic] 2 
+2018-08-23 14:05:51,047 INFO  [WebTestLogic] Failure occured.Refer screenshot(s) for more details
+ 
+2018-08-23 14:05:52,855 INFO  [WebTestLogic] Failure occured.Refer screenshot(s) for more details
+ 
+2018-08-23 14:05:57,646 INFO  [WebTestLogic] Exception:org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'PC009808', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 20784, moz:profile: C:\Users\xrach2907\AppData\..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 686d5674-7b93-476b-a3f6-57511ddbdc1d
+*** Element info: {Using=class name, value=login}
+ 
+2018-08-23 14:05:57,674 INFO  [WebTestLogic] Driver could not be initialized
+ 
+2018-08-23 14:06:30,931 INFO  [WebTestLogic] 2 
+2018-08-23 14:06:32,492 INFO  [WebTestLogic] Failure occured.Refer screenshot(s) for more details
+ 
+2018-08-23 14:06:36,035 INFO  [WebTestLogic] Exception:org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'PC009808', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 14000, moz:profile: C:\Users\xrach2907\AppData\..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: d579624e-87fd-4146-8c31-660602fdc069
+ 
+2018-08-23 14:06:36,035 INFO  [WebTestLogic] Driver could not be initialized
+ 
+2018-08-23 14:06:36,037 INFO  [WebTestLogic] 2 
+2018-08-23 14:08:23,237 INFO  [WebTestLogic] User Registered Successfully
+ 
+2018-08-23 14:08:45,551 INFO  [WebTestLogic] Existing User logged in Successfully
+ 
+2018-08-23 14:09:04,896 INFO  [WebTestLogic] Existing User logged in Successfully
+ 
+2018-08-23 14:12:27,717 INFO  [WebTestLogic] User Registered Successfully
+ 
+2018-08-23 14:12:41,980 INFO  [WebTestLogic] Existing User logged in Successfully
+ 
+2018-08-23 14:12:54,754 INFO  [WebTestLogic] Existing User logged in Successfully
+ 
+2018-08-23 14:13:37,688 INFO  [WebTestLogic] User Registered Successfully
+ 
+2018-08-23 14:13:49,251 INFO  [WebTestLogic] Existing User logged in Successfully
+ 
+2018-08-23 14:14:01,387 INFO  [WebTestLogic] Existing User logged in Successfully
+ 
+2018-08-23 14:15:45,826 INFO  [WebTestLogic] User Registered Successfully
+ 
+2018-08-23 14:15:46,750 INFO  [WebTestLogic] User Registered Successfully
+ 
+2018-08-23 14:16:35,345 INFO  [WebTestLogic] User Registered Successfully
+ 
+2018-08-23 14:16:36,015 INFO  [WebTestLogic] User Registered Successfully
+ 
+2018-08-23 14:19:51,075 INFO  [WebTestLogic] User Registered Successfully
+ 
+2018-08-23 14:21:23,789 INFO  [WebTestLogic] Exception:org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: id_gender2 (tried for 100 second(s) with 500 milliseconds interval)
+ 
+2018-08-23 14:21:23,790 INFO  [WebTestLogic] Driver could not be initialized
+ 
+2018-08-23 14:22:24,523 INFO  [WebTestLogic] Exception:org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: id_gender2 (tried for 100 second(s) with 500 milliseconds interval)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'PC009808', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\XRACH2~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50052}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: b727341a76b54d4c7c938d31dae4d3eb
+ 
+2018-08-23 14:22:24,525 INFO  [WebTestLogic] Driver could not be initialized
+ 
+2018-08-23 14:22:27,449 INFO  [WebTestLogic] Exception:org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: id_gender2 (tried for 100 second(s) with 500 milliseconds interval)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'PC009808', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 18868, moz:profile: C:\Users\xrach2907\AppData\..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: cd138c2e-66e1-4d9e-a0a9-aa2f146ec5dd
+ 
+2018-08-23 14:22:27,450 INFO  [WebTestLogic] Driver could not be initialized
+ 
+2018-08-23 14:22:31,576 INFO  [WebTestLogic] User Registered Successfully
+ 
+2018-08-23 14:24:44,051 INFO  [WebTestLogic] Existing User logged in Successfully
+ 
+2018-08-23 14:24:45,984 INFO  [WebTestLogic] Existing User logged in Successfully
+ 
+2018-08-23 14:25:37,139 INFO  [WebTestLogic] User Registered Successfully
+ 
+2018-08-23 14:27:11,039 INFO  [WebTestLogic] Exception:org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: id_gender2 (tried for 100 second(s) with 500 milliseconds interval)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'PC009808', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 22160, moz:profile: C:\Users\xrach2907\AppData\..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 83e680f0-0161-40ec-988c-a210589ef919
+ 
+2018-08-23 14:27:11,039 INFO  [WebTestLogic] Driver could not be initialized
+ 
+2018-08-23 14:27:36,352 INFO  [WebTestLogic] User Registered Successfully
+ 
+2018-08-23 14:29:05,506 INFO  [WebTestLogic] Exception:org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: id_gender2 (tried for 100 second(s) with 500 milliseconds interval)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'PC009808', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\XRACH2~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50609}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: 690552242e163b61716ef460fd9fa34d
+ 
+2018-08-23 14:29:05,506 INFO  [WebTestLogic] Driver could not be initialized
+ 
+2018-08-23 14:30:33,387 INFO  [WebTestLogic] User Registered Successfully
+ 
+2018-08-23 14:30:35,897 INFO  [WebTestLogic] User Registered Successfully
+ 
+2018-08-23 14:31:23,098 INFO  [WebTestLogic] User Registered Successfully
+ 
+2018-08-23 14:31:24,241 INFO  [WebTestLogic] User Registered Successfully
+ 
+2018-08-23 14:34:16,960 INFO  [WebTestLogic] User Registered Successfully onfirefox
+ 
+2018-08-23 14:34:18,278 INFO  [WebTestLogic] User Registered Successfully onchrome
+ 
+2018-08-23 14:40:47,055 INFO  [WebTestLogic] User Registered Successfully using browser = firefox
+ 
+2018-08-23 14:40:50,101 INFO  [WebTestLogic] User Registered Successfully using browser = chrome
+ 
+2018-08-23 14:41:21,131 INFO  [WebTestLogic] Exception:java.lang.NullPointerException
+ 
+2018-08-23 14:41:21,132 INFO  [WebTestLogic] Driver could not be initialized
+ 
+2018-08-23 14:41:38,700 INFO  [WebTestLogic] User Registered Successfully using browser = chrome
+ 
+2018-08-23 14:45:59,212 INFO  [WebTestLogic] Exception:java.lang.NullPointerException
+ 
+2018-08-23 14:45:59,214 INFO  [WebTestLogic] Driver could not be initialized
+ 
+2018-08-23 14:46:24,891 INFO  [WebTestLogic] User Registered Successfully using browser = chrome
+ 
+2018-08-23 14:46:38,845 INFO  [WebTestLogic] Existing User logged in Successfully using browser = chrome
+ 
+2018-08-23 14:46:47,604 INFO  [WebTestLogic] Exception:java.lang.NullPointerException
+ 
+2018-08-23 14:46:47,606 INFO  [WebTestLogic] Driver could not be initialized
+ 
+2018-08-23 14:46:55,442 INFO  [WebTestLogic] Existing User logged in Successfully using browser = chrome
+ 
+2018-08-23 14:47:11,011 INFO  [WebTestLogic] User Registered Successfully using browser = chrome
+ 
+2018-08-23 14:47:23,459 INFO  [WebTestLogic] Existing User logged in Successfully using browser = chrome
+ 
+2018-08-23 14:47:35,001 INFO  [WebTestLogic] Existing User logged in Successfully using browser = chrome
+ 
+2018-08-23 14:49:31,742 INFO  [WebTestLogic] User Registered Successfully using browser = chrome
+ 
+2018-08-23 14:49:32,613 INFO  [WebTestLogic] User Registered Successfully using browser = firefox
+ 
+2018-08-23 14:49:47,806 INFO  [WebTestLogic] Existing User logged in Successfully using browser = chrome
+ 
+2018-08-23 14:49:54,031 INFO  [WebTestLogic] Existing User logged in Successfully using browser = firefox
+ 
+2018-08-23 14:50:03,477 INFO  [WebTestLogic] Existing User logged in Successfully using browser = chrome
+ 
+2018-08-23 14:50:13,055 INFO  [WebTestLogic] Existing User logged in Successfully using browser = firefox
+ 
+2018-08-23 14:52:02,198 INFO  [WebTestLogic] User Registered Successfully using browser = firefox
+ 
+2018-08-23 14:52:19,839 INFO  [WebTestLogic] Existing User logged in Successfully using browser = firefox
+ 
+2018-08-23 14:52:38,266 INFO  [WebTestLogic] Existing User logged in Successfully using browser = firefox
+ 
+2018-08-23 14:54:00,050 INFO  [WebTestLogic] User Registered Successfully using browser = chrome
+ 
+2018-08-23 14:54:14,564 INFO  [WebTestLogic] Existing User logged in Successfully using browser = chrome
+ 
+2018-08-23 14:54:26,037 INFO  [WebTestLogic] Existing User logged in Successfully using browser = chrome
+ 
+2018-08-23 14:56:17,642 INFO  [WebTestLogic] Exception:org.openqa.selenium.StaleElementReferenceException: The element reference of <a class="login" href="http://automationpractice.com/index.php?controller=my-account"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'PC009808', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15236, moz:profile: C:\Users\xrach2907\AppData\..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 468971ae-65e7-4786-94ea-bdc3f2087ccd
+ 
+2018-08-23 14:56:17,645 INFO  [WebTestLogic] Driver could not be initialized
+ 
+2018-08-23 14:56:20,570 INFO  [WebTestLogic] 2 
+2018-08-23 14:56:20,575 INFO  [WebTestLogic] 2 
+2018-08-23 14:57:28,522 INFO  [WebTestLogic] 2 
+2018-08-23 14:57:28,522 INFO  [WebTestLogic] 2 
+2018-08-23 14:57:29,411 INFO  [WebTestLogic] Failure occured.Refer screenshot(s) for more details
+ 
+2018-08-23 14:57:33,231 INFO  [WebTestLogic] Failure occured.Refer screenshot(s) for more details
+ 
+2018-08-23 14:57:35,066 INFO  [WebTestLogic] Exception:org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'PC009808', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\XRACH2~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52730}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: 68b66897cb1068857f12bdcd28fa753c
+*** Element info: {Using=class name, value=login}
+ 
+2018-08-23 14:57:35,066 INFO  [WebTestLogic] Driver could not be initialized
+ 
+2018-08-23 14:58:59,176 INFO  [WebTestLogic] User Signed Up Successfully using browser = firefox
+ 
+2018-08-23 14:59:00,833 INFO  [WebTestLogic] User Signed Up Successfully using browser = chrome
+ 
+2018-08-23 14:59:16,854 INFO  [WebTestLogic] Existing User logged in Successfully using browser = chrome
+ 
+2018-08-23 14:59:22,019 INFO  [WebTestLogic] Existing User logged in Successfully using browser = firefox
+ 
+2018-08-23 14:59:35,255 INFO  [WebTestLogic] Existing User logged in Successfully using browser = chrome
+ 
+2018-08-23 14:59:46,889 INFO  [WebTestLogic] Existing User logged in Successfully using browser = firefox
+ 
+2018-08-23 16:00:05,827 INFO  [WebTestLogic] 2 
+2018-08-23 16:00:06,405 INFO  [WebTestLogic] Failure occured.Refer screenshot(s) for more details
+ 
+2018-08-23 16:01:54,796 INFO  [WebTestLogic] 2 
+2018-08-23 16:01:55,166 INFO  [WebTestLogic] Failure occured.Refer screenshot(s) for more details
+ 
+2018-08-23 16:02:55,380 INFO  [WebTestLogic] 2 
+2018-08-23 16:02:55,779 INFO  [WebTestLogic] Failure occured.Refer screenshot(s) for more details
+ 
+2018-08-23 16:17:21,768 INFO  [WebTestLogic] User Signed Up Successfully using browser = firefox
+ 
+2018-08-23 16:17:31,831 INFO  [WebTestLogic] User Signed Up Successfully using browser = chrome
+ 
+2018-08-23 16:17:43,104 INFO  [WebTestLogic] Existing User logged in Successfully using browser = firefox
+ 
+2018-08-23 16:17:50,086 INFO  [WebTestLogic] Existing User logged in Successfully using browser = chrome
+ 
+2018-08-23 16:18:04,633 INFO  [WebTestLogic] Existing User logged in Successfully using browser = firefox
+ 
+2018-08-23 16:18:10,875 INFO  [WebTestLogic] Existing User logged in Successfully using browser = chrome
+ 

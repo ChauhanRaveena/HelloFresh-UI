@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Web Test" duration-ms="111393" started-at="2018-08-23T14:16:50Z" finished-at="2018-08-23T14:18:41Z">
+    <groups>
+    </groups>
+    <test name="Sign Up Firefox" duration-ms="106974" started-at="2018-08-23T14:16:50Z" finished-at="2018-08-23T14:18:37Z">
+      <class name="common.UIAutomationTest.ExecutionClass">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:common.UIAutomationTest.ExecutionClass@42d80b78]" name="setUp" is-config="true" duration-ms="18766" started-at="2018-08-23T14:16:50Z" finished-at="2018-08-23T14:17:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="signUp(java.lang.String)[pri:0, instance:common.UIAutomationTest.ExecutionClass@42d80b78]" name="signUp" duration-ms="12409" started-at="2018-08-23T14:17:09Z" finished-at="2018-08-23T14:17:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:common.UIAutomationTest.ExecutionClass@42d80b78]" name="takeScreenShotOnFailure" is-config="true" duration-ms="3" started-at="2018-08-23T14:17:21Z" finished-at="2018-08-23T14:17:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signUp status=SUCCESS method=ExecutionClass.signUp(java.lang.String)[pri:0, instance:common.UIAutomationTest.ExecutionClass@42d80b78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="close()[pri:0, instance:common.UIAutomationTest.ExecutionClass@42d80b78]" name="close" is-config="true" duration-ms="3179" started-at="2018-08-23T14:17:21Z" depends-on-methods="common.UIAutomationTest.ExecutionClass.takeScreenShotOnFailure" finished-at="2018-08-23T14:17:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:common.UIAutomationTest.ExecutionClass@42d80b78]" name="setUp" is-config="true" duration-ms="11412" started-at="2018-08-23T14:17:24Z" finished-at="2018-08-23T14:17:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logInTest(java.lang.String)[pri:0, instance:common.UIAutomationTest.ExecutionClass@42d80b78]" name="logInTest" duration-ms="6732" started-at="2018-08-23T14:17:36Z" finished-at="2018-08-23T14:17:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:common.UIAutomationTest.ExecutionClass@42d80b78]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2018-08-23T14:17:43Z" finished-at="2018-08-23T14:17:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logInTest status=SUCCESS method=ExecutionClass.logInTest(java.lang.String)[pri:0, instance:common.UIAutomationTest.ExecutionClass@42d80b78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="close()[pri:0, instance:common.UIAutomationTest.ExecutionClass@42d80b78]" name="close" is-config="true" duration-ms="3751" started-at="2018-08-23T14:17:43Z" depends-on-methods="common.UIAutomationTest.ExecutionClass.takeScreenShotOnFailure" finished-at="2018-08-23T14:17:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:common.UIAutomationTest.ExecutionClass@42d80b78]" name="setUp" is-config="true" duration-ms="10183" started-at="2018-08-23T14:17:46Z" finished-at="2018-08-23T14:17:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkoutTest(java.lang.String)[pri:0, instance:common.UIAutomationTest.ExecutionClass@42d80b78]" name="checkoutTest" duration-ms="36135" started-at="2018-08-23T14:17:57Z" finished-at="2018-08-23T14:18:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutTest -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:common.UIAutomationTest.ExecutionClass@42d80b78]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2018-08-23T14:18:33Z" finished-at="2018-08-23T14:18:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkoutTest status=SUCCESS method=ExecutionClass.checkoutTest(java.lang.String)[pri:0, instance:common.UIAutomationTest.ExecutionClass@42d80b78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="close()[pri:0, instance:common.UIAutomationTest.ExecutionClass@42d80b78]" name="close" is-config="true" duration-ms="4321" started-at="2018-08-23T14:18:33Z" depends-on-methods="common.UIAutomationTest.ExecutionClass.takeScreenShotOnFailure" finished-at="2018-08-23T14:18:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- common.UIAutomationTest.ExecutionClass -->
+    </test> <!-- Sign Up Firefox -->
+    <test name="Sign Up Chrome" duration-ms="111393" started-at="2018-08-23T14:16:50Z" finished-at="2018-08-23T14:18:41Z">
+      <class name="common.UIAutomationTest.ExecutionClass">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:common.UIAutomationTest.ExecutionClass@14bf9759]" name="setUp" is-config="true" duration-ms="24322" started-at="2018-08-23T14:16:50Z" finished-at="2018-08-23T14:17:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="signUp(java.lang.String)[pri:0, instance:common.UIAutomationTest.ExecutionClass@14bf9759]" name="signUp" duration-ms="16914" started-at="2018-08-23T14:17:14Z" finished-at="2018-08-23T14:17:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:common.UIAutomationTest.ExecutionClass@14bf9759]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2018-08-23T14:17:31Z" finished-at="2018-08-23T14:17:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signUp status=SUCCESS method=ExecutionClass.signUp(java.lang.String)[pri:0, instance:common.UIAutomationTest.ExecutionClass@14bf9759] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="close()[pri:0, instance:common.UIAutomationTest.ExecutionClass@14bf9759]" name="close" is-config="true" duration-ms="298" started-at="2018-08-23T14:17:31Z" depends-on-methods="common.UIAutomationTest.ExecutionClass.takeScreenShotOnFailure" finished-at="2018-08-23T14:17:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:common.UIAutomationTest.ExecutionClass@14bf9759]" name="setUp" is-config="true" duration-ms="11901" started-at="2018-08-23T14:17:32Z" finished-at="2018-08-23T14:17:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logInTest(java.lang.String)[pri:0, instance:common.UIAutomationTest.ExecutionClass@14bf9759]" name="logInTest" duration-ms="6052" started-at="2018-08-23T14:17:44Z" finished-at="2018-08-23T14:17:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:common.UIAutomationTest.ExecutionClass@14bf9759]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2018-08-23T14:17:50Z" finished-at="2018-08-23T14:17:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logInTest status=SUCCESS method=ExecutionClass.logInTest(java.lang.String)[pri:0, instance:common.UIAutomationTest.ExecutionClass@14bf9759] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="close()[pri:0, instance:common.UIAutomationTest.ExecutionClass@14bf9759]" name="close" is-config="true" duration-ms="2321" started-at="2018-08-23T14:17:50Z" depends-on-methods="common.UIAutomationTest.ExecutionClass.takeScreenShotOnFailure" finished-at="2018-08-23T14:17:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:common.UIAutomationTest.ExecutionClass@14bf9759]" name="setUp" is-config="true" duration-ms="7956" started-at="2018-08-23T14:17:52Z" finished-at="2018-08-23T14:18:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkoutTest(java.lang.String)[pri:0, instance:common.UIAutomationTest.ExecutionClass@14bf9759]" name="checkoutTest" duration-ms="39311" started-at="2018-08-23T14:18:00Z" finished-at="2018-08-23T14:18:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutTest -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:common.UIAutomationTest.ExecutionClass@14bf9759]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2018-08-23T14:18:39Z" finished-at="2018-08-23T14:18:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkoutTest status=SUCCESS method=ExecutionClass.checkoutTest(java.lang.String)[pri:0, instance:common.UIAutomationTest.ExecutionClass@14bf9759] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="close()[pri:0, instance:common.UIAutomationTest.ExecutionClass@14bf9759]" name="close" is-config="true" duration-ms="2241" started-at="2018-08-23T14:18:39Z" depends-on-methods="common.UIAutomationTest.ExecutionClass.takeScreenShotOnFailure" finished-at="2018-08-23T14:18:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- common.UIAutomationTest.ExecutionClass -->
+    </test> <!-- Sign Up Chrome -->
+  </suite> <!-- Web Test -->
+</testng-results>

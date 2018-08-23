@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="1" name="Test">
+  <parameter name="baseURI"  value="http://services.groupkt.com/country/get" /> 
+    <classes>
+	      <class name="APITest.ExecutionClass">
+	       <methods>
+	       		<include name="getEachCountryAndValidate"></include>
+	       		<include name="getAllCountries"></include>
+	       		<include name="addNewCountry"></include>
+	       </methods>
+	      </class>
+	    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
