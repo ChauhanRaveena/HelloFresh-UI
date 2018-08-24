@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Web Test]" parallel="tests">
-  <test thread-count="3" name="Sign Up Firefox(failed)" parallel="tests">
-    <parameter name="browser" value="firefox"/>
+  <test thread-count="3" name="Sign Up Chrome(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
     <classes>
       <class name="common.UIAutomationTest.ExecutionClass">
         <methods>
           <include name="setUp"/>
           <include name="close"/>
-          <include name="logInTest" invocation-numbers="0"/>
           <include name="takeScreenShotOnFailure"/>
+          <include name="checkoutTest" invocation-numbers="0"/>
         </methods>
       </class> <!-- common.UIAutomationTest.ExecutionClass -->
     </classes>
-  </test> <!-- Sign Up Firefox(failed) -->
+  </test> <!-- Sign Up Chrome(failed) -->
 </suite> <!-- Failed suite [Web Test] -->

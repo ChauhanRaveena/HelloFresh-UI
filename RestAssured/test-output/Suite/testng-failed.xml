@@ -2,11 +2,13 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
+    <parameter name="baseURI" value="http://services.groupkt.com/country/get"/>
     <classes>
       <class name="APITest.ExecutionClass">
         <methods>
-          <include name="getAllCountries"/>
-          <include name="addNewCountry"/>
+          <include name="getEachCountryAndValidate" invocation-numbers="0"/>
+          <include name="getAllCountries" invocation-numbers="0"/>
+          <include name="addNewCountry" invocation-numbers="0"/>
         </methods>
       </class> <!-- APITest.ExecutionClass -->
     </classes>

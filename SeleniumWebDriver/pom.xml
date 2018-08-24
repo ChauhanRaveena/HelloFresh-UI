@@ -4,7 +4,7 @@
   <groupId>com.hellofresh.challenge</groupId>
   <artifactId>web-test</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <name>web-test</name>
+  <name>ExecutionClass</name>
   
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -12,6 +12,7 @@
     <selenium.version>3.11.0</selenium.version>
     <log4j.version>1.2.17</log4j.version>
     <testng.version>6.14.2</testng.version>
+    <commons.io.version>2.5</commons.io.version>
   </properties>
   
   <!-- https://mvnrepository.com/artifact/junit/junit -->
@@ -41,5 +42,12 @@
 	    <version>${testng.version}</version>
 	    <scope>test</scope>
 	</dependency>
+	<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+<dependency>
+    <groupId>commons-io</groupId>
+    <artifactId>commons-io</artifactId>
+    <version>${commons.io.version}</version>
+</dependency>
+	
   </dependencies>
 </project>

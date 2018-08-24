@@ -1,9 +1,8 @@
 package APITest;
 import org.testng.annotations.Test;
+import org.testng.Assert;
 import org.testng.AssertJUnit;
 import org.testng.annotations.Parameters;
-import org.testng.annotations.Test;
-import org.testng.AssertJUnit;
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
 import io.restassured.response.Response;
@@ -18,10 +17,10 @@ import static org.hamcrest.Matchers.hasItems;
 import static org.hamcrest.Matchers.equalTo;
 import io.restassured.path.json.JsonPath;
 
-
 public class ExecutionClass {
 	
-	
+		int statusCode;
+		
 		@Test(priority = 0)
 		@Parameters({ "baseURI" })
 		public void getAllCountries(String baseURI)
@@ -46,21 +45,17 @@ public class ExecutionClass {
 			System.out.println("¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ Get all countries and validate that US, DE and GB were returned in the response¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ "+System.lineSeparator());
 			System.out.println("Response Body is =>  " + responseBody+System.lineSeparator());
 			
-			// Get the status code from the Response. In case of 
-			// a successful interaction with the web service, we
-			// should get a status code of 200.
-			int statusCode = response.getStatusCode();
+			// Get the status code from the Response. In case of a successful interaction with the web service, 
+			//we should get a status code of 200.
+			statusCode = response.getStatusCode();
+			Assert.assertEquals(statusCode, 200 , "Response Codes do not match"+System.lineSeparator());
 			System.out.println("The HTTP Response Code is: "+statusCode+System.lineSeparator());
-			
-			// Assert that correct status code is returned.
-			AssertJUnit.assertEquals(statusCode /*actual value*/, 200 /*expected value*/);
-		    
-			List<String> countryCodes = JsonPath.from(responseBody).get("RestResponse.result.alpha2_code");
 			
 			if(response != null)
 			{
 				response.then().assertThat().body("RestResponse.result.alpha2_code", hasItems("US","DE","GB"));
 				System.out.println("Countries \"US\",\"DE\",\"GB\" are found in the list"+System.lineSeparator());
+				System.out.println("Response Validation Successful"+System.lineSeparator());
 			}
 			
 	}
@@ -72,7 +67,6 @@ public class ExecutionClass {
 		{   
 			
 			InputStream inputStream = null;
-			InputStream inputStreamApi = null;
 			
 			try {
 				
@@ -87,7 +81,7 @@ public class ExecutionClass {
 					throw new FileNotFoundException("property file '" + propFileName + "' not found in the classpath");
 				}
 				
-				
+				//Fetch the values from API.properties file one by one and execute the REST request to get the countries as per their contrycodes
 				for(Entry<Object, Object> countryCodes : prop.entrySet())
 				{
 					String[] values = new String[prop.size()];
@@ -113,16 +107,23 @@ public class ExecutionClass {
 					System.out.println("¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ Get response for COUNTRY_ISO2CODE = "+values[index]+" ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ "+System.lineSeparator());
 					System.out.println("Response Body is =>  " + responseBody);
 
-					//Validate the response
+					//Validate whether the response element alpha2_codes - US,DE,GB are found in the response. Its validated against the API.properties
 					if(response.body().jsonPath().getJsonObject("RestResponse.result.alpha2_code") != null)
 					{
 					response.then().assertThat().body("RestResponse.result.alpha2_code", equalTo(values[index]));
+					statusCode= response.getStatusCode();
+					Assert.assertEquals(statusCode, 200 , "Response Codes do not match");
 					System.out.println("Response Status Code is "+response.getStatusCode()+System.lineSeparator());
+					System.out.println("Response Validation Successful"+System.lineSeparator());
 					System.out.println("CountryCode "+values[index]+ " found in the list"+System.lineSeparator());
 					}
+					//Validate whether the response element alpha2_code for an inexistent country are not found in the response. Its validated against the API.properties
 					else
 					{
+						statusCode = response.getStatusCode();
+						Assert.assertEquals(statusCode, 200 , "Response Codes do not match");
 						System.out.println("Response Status Code is "+response.getStatusCode()+System.lineSeparator());
+						System.out.println("Response Validation Successful"+System.lineSeparator());
 						System.out.println(values[index]+" Not Found In The List"+System.lineSeparator());
 					}
 					
@@ -168,11 +169,12 @@ public class ExecutionClass {
 			Response response = httpRequest.request(Method.POST, "/iso2code/TC");
 			
 			//Validate the response
-			int statusCode = response.getStatusCode();
-			AssertJUnit.assertEquals(statusCode, 200);
+			statusCode = response.getStatusCode();
+			Assert.assertEquals(statusCode, 200 , "Response Codes do not match");
 			System.out.println("¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ Get response for POST Operation ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤"+System.lineSeparator());
 			System.out.println("Status Code for addition of new country is "+statusCode+System.lineSeparator());
-
+			System.out.println("Response Validation Successful"+System.lineSeparator());
+			System.out.println("Response Body For POST: "+System.lineSeparator()+response.getBody().asString());
 			
 	}
 		

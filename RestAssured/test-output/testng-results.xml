@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="6662" started-at="2018-08-23T15:21:16Z" finished-at="2018-08-23T15:21:23Z">
+  <suite name="API Test" duration-ms="8965" started-at="2018-08-24T13:11:53Z" finished-at="2018-08-24T13:12:02Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="6662" started-at="2018-08-23T15:21:16Z" finished-at="2018-08-23T15:21:23Z">
+    <test name="Test" duration-ms="8965" started-at="2018-08-24T13:11:53Z" finished-at="2018-08-24T13:12:02Z">
       <class name="APITest.ExecutionClass">
-        <test-method status="PASS" signature="getAllCountries(java.lang.String)[pri:0, instance:APITest.ExecutionClass@26653222]" name="getAllCountries" duration-ms="5355" started-at="2018-08-23T15:21:16Z" finished-at="2018-08-23T15:21:22Z">
+        <test-method status="PASS" signature="getAllCountries(java.lang.String)[pri:0, instance:APITest.ExecutionClass@29ee9faa]" name="getAllCountries" duration-ms="7576" started-at="2018-08-24T13:11:53Z" finished-at="2018-08-24T13:12:01Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAllCountries -->
-        <test-method status="PASS" signature="getEachCountryAndValidate(java.lang.String)[pri:1, instance:APITest.ExecutionClass@26653222]" name="getEachCountryAndValidate" duration-ms="952" started-at="2018-08-23T15:21:22Z" finished-at="2018-08-23T15:21:23Z">
+        <test-method status="PASS" signature="getEachCountryAndValidate(java.lang.String)[pri:1, instance:APITest.ExecutionClass@29ee9faa]" name="getEachCountryAndValidate" duration-ms="961" started-at="2018-08-24T13:12:01Z" finished-at="2018-08-24T13:12:02Z">
           <params>
             <param index="0">
               <value>
@@ -29,7 +29,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getEachCountryAndValidate -->
-        <test-method status="PASS" signature="addNewCountry(java.lang.String)[pri:2, instance:APITest.ExecutionClass@26653222]" name="addNewCountry" duration-ms="298" started-at="2018-08-23T15:21:23Z" finished-at="2018-08-23T15:21:23Z">
+        <test-method status="PASS" signature="addNewCountry(java.lang.String)[pri:2, instance:APITest.ExecutionClass@29ee9faa]" name="addNewCountry" duration-ms="299" started-at="2018-08-24T13:12:02Z" finished-at="2018-08-24T13:12:02Z">
           <params>
             <param index="0">
               <value>
@@ -42,5 +42,5 @@
         </test-method> <!-- addNewCountry -->
       </class> <!-- APITest.ExecutionClass -->
     </test> <!-- Test -->
-  </suite> <!-- Suite -->
+  </suite> <!-- API Test -->
 </testng-results>

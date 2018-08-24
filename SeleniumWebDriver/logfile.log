@@ -742,3 +742,80 @@ Session ID: 68b66897cb1068857f12bdcd28fa753c
  
 2018-08-23 16:18:10,875 INFO  [WebTestLogic] Existing User logged in Successfully using browser = chrome
  
+2018-08-24 00:37:39,813 INFO  [WebTestLogic] User Signed Up Successfully using browser = chrome
+ 
+2018-08-24 00:37:48,266 INFO  [WebTestLogic] User Signed Up Successfully using browser = firefox
+ 
+2018-08-24 00:37:58,651 INFO  [WebTestLogic] Existing User logged in Successfully using browser = chrome
+ 
+2018-08-24 00:38:14,400 INFO  [WebTestLogic] Existing User logged in Successfully using browser = firefox
+ 
+2018-08-24 00:38:17,642 INFO  [WebTestLogic] Existing User logged in Successfully using browser = chrome
+ 
+2018-08-24 00:38:29,199 INFO  [WebTestLogic] 2 
+2018-08-24 00:38:29,572 INFO  [WebTestLogic] Failure occured.Refer screenshot(s) for more details
+ 
+2018-08-24 00:39:47,172 INFO  [WebTestLogic] Existing User logged in Successfully using browser = firefox
+ 
+2018-08-24 01:09:22,771 INFO  [WebTestLogic] User Signed Up Successfully using browser = firefox
+ 
+2018-08-24 01:09:44,804 INFO  [WebTestLogic] Existing User logged in Successfully using browser = firefox
+ 
+2018-08-24 01:10:07,222 INFO  [WebTestLogic] Existing User logged in Successfully using browser = firefox
+ 
+2018-08-24 01:10:50,499 INFO  [WebTestLogic] Exception:org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: id_gender2 (tried for 100 second(s) with 500 milliseconds interval)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'PC009808', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\XRACH2~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62871}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: 02da403bdd422f37092cb58e028c8848
+ 
+2018-08-24 01:10:50,499 INFO  [WebTestLogic] Driver could not be initialized
+ 
+2018-08-24 01:11:06,578 INFO  [WebTestLogic] Existing User logged in Successfully using browser = chrome
+ 
+2018-08-24 01:11:20,533 INFO  [WebTestLogic] Existing User logged in Successfully using browser = chrome
+ 
+2018-08-24 14:01:12,361 INFO  [WebTestLogic] User Signed Up Successfully using browser = firefox
+ 
+2018-08-24 14:01:13,438 INFO  [WebTestLogic] User Signed Up Successfully using browser = chrome
+ 
+2018-08-24 14:01:27,199 INFO  [WebTestLogic] Existing User logged in Successfully using browser = chrome
+ 
+2018-08-24 14:01:30,990 INFO  [WebTestLogic] Existing User logged in Successfully using browser = firefox
+ 
+2018-08-24 14:01:40,270 INFO  [WebTestLogic] Existing User logged in Successfully using browser = chrome
+ 
+2018-08-24 14:01:53,846 INFO  [WebTestLogic] Existing User logged in Successfully using browser = firefox
+ 
+2018-08-24 14:47:48,464 INFO  [WebTestLogic] User Signed Up Successfully using browser = firefox
+ 
+2018-08-24 14:48:05,015 INFO  [WebTestLogic] Existing User logged in Successfully using browser = firefox
+ 
+2018-08-24 14:48:32,459 INFO  [WebTestLogic] Existing User logged in Successfully using browser = firefox
+ 
+2018-08-24 14:49:22,823 INFO  [WebTestLogic] Exception:org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: id_gender2 (tried for 100 second(s) with 500 milliseconds interval)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'PC009808', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\XRACH2~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53866}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: 235ff369d130363e2acada6153aa3d54
+ 
+2018-08-24 14:49:22,831 INFO  [WebTestLogic] Driver could not be initialized
+ 
+2018-08-24 14:49:37,200 INFO  [WebTestLogic] Existing User logged in Successfully using browser = chrome
+ 
+2018-08-24 14:49:49,853 INFO  [WebTestLogic] Existing User logged in Successfully using browser = chrome
+ 
+2018-08-24 14:51:52,941 INFO  [WebTestLogic] User Signed Up Successfully using browser = chrome
+ 
+2018-08-24 14:51:54,263 INFO  [WebTestLogic] User Signed Up Successfully using browser = firefox
+ 
+2018-08-24 14:52:07,475 INFO  [WebTestLogic] Existing User logged in Successfully using browser = chrome
+ 
+2018-08-24 14:52:11,067 INFO  [WebTestLogic] Existing User logged in Successfully using browser = firefox
+ 
+2018-08-24 14:52:19,233 INFO  [WebTestLogic] Existing User logged in Successfully using browser = chrome
+ 
+2018-08-24 14:52:31,223 INFO  [WebTestLogic] Existing User logged in Successfully using browser = firefox
+ 

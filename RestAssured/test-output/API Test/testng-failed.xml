@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [API Test]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="baseURI" value="http://services.groupkt.com/country/get"/>
+    <classes>
+      <class name="APITest.ExecutionClass">
+        <methods>
+          <include name="getEachCountryAndValidate" invocation-numbers="0"/>
+          <include name="getAllCountries" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- APITest.ExecutionClass -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [API Test] -->

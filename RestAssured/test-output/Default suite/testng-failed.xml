@@ -5,6 +5,7 @@
     <classes>
       <class name="APITest.ExecutionClass">
         <methods>
+          <include name="getEachCountryAndValidate"/>
           <include name="getAllCountries"/>
           <include name="addNewCountry"/>
         </methods>
