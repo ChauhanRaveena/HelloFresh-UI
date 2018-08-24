@@ -1,7 +1,6 @@
 package APITest;
 import org.testng.annotations.Test;
 import org.testng.Assert;
-import org.testng.AssertJUnit;
 import org.testng.annotations.Parameters;
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
@@ -15,7 +14,6 @@ import java.util.Map.Entry;
 import org.json.simple.JSONObject;
 import static org.hamcrest.Matchers.hasItems;
 import static org.hamcrest.Matchers.equalTo;
-import io.restassured.path.json.JsonPath;
 
 public class ExecutionClass {
 	
